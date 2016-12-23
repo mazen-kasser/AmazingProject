@@ -15,7 +15,7 @@ extension UIViewController {
         return instantiateFromStoryboard(from: storyboard)
     }
 
-    class func instantiateFromStoryboard<T: UIViewController>(from storyboard: UIStoryboard) -> T {
+    private class func instantiateFromStoryboard<T: UIViewController>(from storyboard: UIStoryboard) -> T {
 
         guard let viewController = storyboard.instantiateViewController(withIdentifier: identifier) as? T else {
             fatalError("Couldn’t instantiate view controller with identifier \(identifier) ")
@@ -23,19 +23,4 @@ extension UIViewController {
         return viewController
     }
 }
-
-// MARK: Identifier
-
-protocol Identifiable {
-    static var identifier: String { get }
-}
-
-extension Identifiable where Self: UIViewController {
-    static var identifier: String {
-        return String(describing: self)
-    }
-}
-
-// Global Conformance
-extension UIViewController: Identifiable { }
 

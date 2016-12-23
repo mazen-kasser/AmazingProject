@@ -11,10 +11,10 @@ public extension UIView {
     /// instantiates a view from a nib where the nib name is the same as the custom view class name
     /// returns a strongly typed object of the correct type
     class func instantiateFromNib() -> Self {
-        return instantiateFromNib(name: String(describing: self), owner: nil)
+        return instantiateFromNib()
     }
 
-    private class func instantiateFromNib<T: UIView>(name: String, owner: AnyObject?) -> T {
+    private class func instantiateFromNib<T: UIView>(name: String = identifier, owner: AnyObject? = nil) -> T {
         guard let view = Bundle.main.loadNibNamed(name, owner: owner, options: nil)!.first as? T else {
             fatalError("Couldn’t instantiate view with name \(name) ")
         }

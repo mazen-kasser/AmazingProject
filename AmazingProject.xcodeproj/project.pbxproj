@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		848CC2D41F24A7B600B0EF78 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848CC2D31F24A7B600B0EF78 /* Identifiable.swift */; };
 		BA0891081E0C90C100A1F16A /* UIStoryboards+Extensions.stencil in Resources */ = {isa = PBXBuildFile; fileRef = BA0891071E0C90C100A1F16A /* UIStoryboards+Extensions.stencil */; };
 		BA29BDD91DF5164C00D325D3 /* AmazingProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA29BDD81DF5164C00D325D3 /* AmazingProjectTests.swift */; };
 		BA9BABF91E0B62CF00B18085 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BABF61E0B62CF00B18085 /* UIView+Extensions.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		848CC2D31F24A7B600B0EF78 /* Identifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identifiable.swift; sourceTree = "<group>"; };
 		BA0891071E0C90C100A1F16A /* UIStoryboards+Extensions.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "UIStoryboards+Extensions.stencil"; sourceTree = "<group>"; };
 		BA29BDD61DF5164C00D325D3 /* AmazingProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmazingProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA29BDD81DF5164C00D325D3 /* AmazingProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazingProjectTests.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				BA9BAC021E0B8E8E00B18085 /* SwiftGen */,
 				BA9BABF61E0B62CF00B18085 /* UIView+Extensions.swift */,
 				BA9BABF71E0B62CF00B18085 /* UIViewController+Extensions.swift */,
+				848CC2D31F24A7B600B0EF78 /* Identifiable.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				BA9FC6621DFF6AA1004316AD /* ViewController.swift in Sources */,
 				BA9FC65A1DFF6AA1004316AD /* AppDelegate.swift in Sources */,
 				BA9BABF91E0B62CF00B18085 /* UIView+Extensions.swift in Sources */,
+				848CC2D41F24A7B600B0EF78 /* Identifiable.swift in Sources */,
 				BA9BABFA1E0B62CF00B18085 /* UIViewController+Extensions.swift in Sources */,
 				BA9FC6581DFF6AA1004316AD /* AmazingView.swift in Sources */,
 			);
