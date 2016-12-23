@@ -1,0 +1,27 @@
+//
+// Generated for SwiftGen, by Mazen Kasser
+//
+
+import UIKit
+
+{% if storyboards %}
+enum Storyboard : String {
+    {# // Listed all the storyboards... #}
+    {% for storyboard in storyboards %}
+    {% set storyboardName %}{{storyboard.name|swiftIdentifier}}{% endset %}
+    case {{storyboardName|lowerFirstWord}} = "{{storyboardName}}"
+    {% endfor %}
+
+    var instance: UIStoryboard {
+        return UIStoryboard(name: self)
+    }
+}
+
+extension UIStoryboard {
+  convenience init(name: Storyboard, bundle: Bundle? = nil) {
+    self.init(name: name.rawValue, bundle: bundle)
+  }
+}
+{% else %}
+// No storyboard found
+{% endif %}

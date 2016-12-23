@@ -12,8 +12,10 @@ class ViewController: UIViewController, AmazingViewDelegate {
         let sb = UIStoryboard(name: "AmazingStoryboard", bundle: nil)
         let _ = sb.instantiateViewController(withIdentifier: "AmazingViewController") as? AmazingViewController
 
+        let _ = UIStoryboard(name: .amazingStoryboard)
+        let storyboard = Storyboard.amazingStoryboard.instance
 
-        let storyboard = UIStoryboard(name: .amazingStoryboard)
+
         let viewController = AmazingViewController.instantiate(from: storyboard)
 
         navigationController?.pushViewController(viewController, animated: true)
@@ -22,7 +24,7 @@ class ViewController: UIViewController, AmazingViewDelegate {
     @IBAction func addAmazingView(_ sender: Any) {
 
         // Stringly typed
-    let _ = Bundle.main.loadNibNamed("AmazingView", owner: nil, options: nil)!.first as! AmazingView
+        let _ = Bundle.main.loadNibNamed("AmazingView", owner: nil, options: nil)!.first as! AmazingView
 
         // Stronlgy typed
         let amazingView = AmazingView.instantiateFromNib()

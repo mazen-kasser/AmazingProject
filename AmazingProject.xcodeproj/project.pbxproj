@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA0891081E0C90C100A1F16A /* UIStoryboards+Extensions.stencil in Resources */ = {isa = PBXBuildFile; fileRef = BA0891071E0C90C100A1F16A /* UIStoryboards+Extensions.stencil */; };
 		BA29BDD91DF5164C00D325D3 /* AmazingProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA29BDD81DF5164C00D325D3 /* AmazingProjectTests.swift */; };
+		BA9BABF91E0B62CF00B18085 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BABF61E0B62CF00B18085 /* UIView+Extensions.swift */; };
+		BA9BABFA1E0B62CF00B18085 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BABF71E0B62CF00B18085 /* UIViewController+Extensions.swift */; };
+		BA9BAC041E0B8EC000B18085 /* UIStoryboard+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BAC031E0B8EC000B18085 /* UIStoryboard+Extensions.swift */; };
 		BA9FC6571DFF6AA1004316AD /* AmazingStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9FC6491DFF6AA1004316AD /* AmazingStoryboard.storyboard */; };
 		BA9FC6581DFF6AA1004316AD /* AmazingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9FC64A1DFF6AA1004316AD /* AmazingView.swift */; };
 		BA9FC6591DFF6AA1004316AD /* AmazingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9FC64B1DFF6AA1004316AD /* AmazingView.xib */; };
 		BA9FC65A1DFF6AA1004316AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9FC64C1DFF6AA1004316AD /* AppDelegate.swift */; };
 		BA9FC65B1DFF6AA1004316AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9FC64D1DFF6AA1004316AD /* Assets.xcassets */; };
-		BA9FC65C1DFF6AA1004316AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9FC64E1DFF6AA1004316AD /* LaunchScreen.storyboard */; };
 		BA9FC65D1DFF6AA1004316AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9FC6501DFF6AA1004316AD /* Main.storyboard */; };
 		BA9FC65E1DFF6AA1004316AD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA9FC6521DFF6AA1004316AD /* Info.plist */; };
-		BA9FC65F1DFF6AA1004316AD /* Storyboard+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9FC6531DFF6AA1004316AD /* Storyboard+Extensions.swift */; };
-		BA9FC6601DFF6AA1004316AD /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9FC6541DFF6AA1004316AD /* UIView+Extensions.swift */; };
-		BA9FC6611DFF6AA1004316AD /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9FC6551DFF6AA1004316AD /* UIViewController+Extensions.swift */; };
 		BA9FC6621DFF6AA1004316AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9FC6561DFF6AA1004316AD /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,20 +33,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA0891071E0C90C100A1F16A /* UIStoryboards+Extensions.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "UIStoryboards+Extensions.stencil"; sourceTree = "<group>"; };
 		BA29BDD61DF5164C00D325D3 /* AmazingProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmazingProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA29BDD81DF5164C00D325D3 /* AmazingProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazingProjectTests.swift; sourceTree = "<group>"; };
 		BA29BDDA1DF5164C00D325D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA9BABF61E0B62CF00B18085 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		BA9BABF71E0B62CF00B18085 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		BA9BAC031E0B8EC000B18085 /* UIStoryboard+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extensions.swift"; sourceTree = "<group>"; };
 		BA9FC6491DFF6AA1004316AD /* AmazingStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AmazingStoryboard.storyboard; sourceTree = "<group>"; };
 		BA9FC64A1DFF6AA1004316AD /* AmazingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmazingView.swift; sourceTree = "<group>"; };
 		BA9FC64B1DFF6AA1004316AD /* AmazingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmazingView.xib; sourceTree = "<group>"; };
 		BA9FC64C1DFF6AA1004316AD /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA9FC64D1DFF6AA1004316AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BA9FC64F1DFF6AA1004316AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA9FC6511DFF6AA1004316AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA9FC6521DFF6AA1004316AD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA9FC6531DFF6AA1004316AD /* Storyboard+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Storyboard+Extensions.swift"; sourceTree = "<group>"; };
-		BA9FC6541DFF6AA1004316AD /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
-		BA9FC6551DFF6AA1004316AD /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		BA9FC6561DFF6AA1004316AD /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BAF7107A1DED560C00EAC4AB /* AmazingProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmazingProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -79,36 +79,44 @@
 			path = StoryboardTests;
 			sourceTree = "<group>";
 		};
+		BA9BABF41E0B62CF00B18085 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BA9BAC021E0B8E8E00B18085 /* SwiftGen */,
+				BA9BABF61E0B62CF00B18085 /* UIView+Extensions.swift */,
+				BA9BABF71E0B62CF00B18085 /* UIViewController+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BA9BAC021E0B8E8E00B18085 /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				BA0891071E0C90C100A1F16A /* UIStoryboards+Extensions.stencil */,
+				BA9BAC031E0B8EC000B18085 /* UIStoryboard+Extensions.swift */,
+			);
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
 		BA9FC6481DFF6AA1004316AD /* AmazingProject */ = {
 			isa = PBXGroup;
 			children = (
 				BA9FC64C1DFF6AA1004316AD /* AppDelegate.swift */,
 				BA9FC6561DFF6AA1004316AD /* ViewController.swift */,
+				BA9FC6501DFF6AA1004316AD /* Main.storyboard */,
 				BA9FC6491DFF6AA1004316AD /* AmazingStoryboard.storyboard */,
 				BA9FC64A1DFF6AA1004316AD /* AmazingView.swift */,
 				BA9FC64B1DFF6AA1004316AD /* AmazingView.xib */,
-				BA9FC6631DFF6B9D004316AD /* Extensions */,
+				BA9BABF41E0B62CF00B18085 /* Extensions */,
 				BA9FC6641DFF6BB0004316AD /* Resources */,
 			);
 			path = AmazingProject;
-			sourceTree = "<group>";
-		};
-		BA9FC6631DFF6B9D004316AD /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				BA9FC6531DFF6AA1004316AD /* Storyboard+Extensions.swift */,
-				BA9FC6541DFF6AA1004316AD /* UIView+Extensions.swift */,
-				BA9FC6551DFF6AA1004316AD /* UIViewController+Extensions.swift */,
-			);
-			name = Extensions;
 			sourceTree = "<group>";
 		};
 		BA9FC6641DFF6BB0004316AD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				BA9FC64D1DFF6AA1004316AD /* Assets.xcassets */,
-				BA9FC64E1DFF6AA1004316AD /* LaunchScreen.storyboard */,
-				BA9FC6501DFF6AA1004316AD /* Main.storyboard */,
 				BA9FC6521DFF6AA1004316AD /* Info.plist */,
 			);
 			name = Resources;
@@ -157,6 +165,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAF7108C1DED560C00EAC4AB /* Build configuration list for PBXNativeTarget "AmazingProject" */;
 			buildPhases = (
+				BA9BABF31E0B610900B18085 /* ShellScript */,
 				BAF710761DED560C00EAC4AB /* Sources */,
 				BAF710771DED560C00EAC4AB /* Frameworks */,
 				BAF710781DED560C00EAC4AB /* Resources */,
@@ -228,13 +237,29 @@
 				BA9FC6591DFF6AA1004316AD /* AmazingView.xib in Resources */,
 				BA9FC65D1DFF6AA1004316AD /* Main.storyboard in Resources */,
 				BA9FC65E1DFF6AA1004316AD /* Info.plist in Resources */,
-				BA9FC65C1DFF6AA1004316AD /* LaunchScreen.storyboard in Resources */,
 				BA9FC65B1DFF6AA1004316AD /* Assets.xcassets in Resources */,
+				BA0891081E0C90C100A1F16A /* UIStoryboards+Extensions.stencil in Resources */,
 				BA9FC6571DFF6AA1004316AD /* AmazingStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BA9BABF31E0B610900B18085 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftgen >/dev/null; then\nswiftgen storyboards -p \"$PROJECT_DIR/$TARGET_NAME/Extensions/SwiftGen/UIStoryboards+Extensions.stencil\" \"$PROJECT_DIR\" -o \"$PROJECT_DIR/$TARGET_NAME/Extensions/SwiftGen/UIStoryboard+Extensions.swift\"\nelse\necho \"warning: SwiftGen not installed, download it from https://github.com/AliSoftware/SwiftGen\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BA29BDD21DF5164C00D325D3 /* Sources */ = {
@@ -249,11 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA9BAC041E0B8EC000B18085 /* UIStoryboard+Extensions.swift in Sources */,
 				BA9FC6621DFF6AA1004316AD /* ViewController.swift in Sources */,
-				BA9FC65F1DFF6AA1004316AD /* Storyboard+Extensions.swift in Sources */,
 				BA9FC65A1DFF6AA1004316AD /* AppDelegate.swift in Sources */,
-				BA9FC6611DFF6AA1004316AD /* UIViewController+Extensions.swift in Sources */,
-				BA9FC6601DFF6AA1004316AD /* UIView+Extensions.swift in Sources */,
+				BA9BABF91E0B62CF00B18085 /* UIView+Extensions.swift in Sources */,
+				BA9BABFA1E0B62CF00B18085 /* UIViewController+Extensions.swift in Sources */,
 				BA9FC6581DFF6AA1004316AD /* AmazingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,14 +294,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BA9FC64E1DFF6AA1004316AD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BA9FC64F1DFF6AA1004316AD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 		BA9FC6501DFF6AA1004316AD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
