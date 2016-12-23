@@ -7,6 +7,7 @@ import UIKit
 enum Storyboard : String {
     case amazingStoryboard = "AmazingStoryboard"
     case main = "Main"
+    case designable = "Designable"
 
     var instance: UIStoryboard {
         return UIStoryboard(name: self)

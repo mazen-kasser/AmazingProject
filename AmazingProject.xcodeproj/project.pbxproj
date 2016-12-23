@@ -37,6 +37,7 @@
 		BA29BDD61DF5164C00D325D3 /* AmazingProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmazingProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA29BDD81DF5164C00D325D3 /* AmazingProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazingProjectTests.swift; sourceTree = "<group>"; };
 		BA29BDDA1DF5164C00D325D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA7233F41E0CE2F300352499 /* SwiftGen.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftGen.playground; sourceTree = "<group>"; };
 		BA9BABF61E0B62CF00B18085 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		BA9BABF71E0B62CF00B18085 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		BA9BAC031E0B8EC000B18085 /* UIStoryboard+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extensions.swift"; sourceTree = "<group>"; };
@@ -125,6 +126,7 @@
 		BAF710711DED560C00EAC4AB = {
 			isa = PBXGroup;
 			children = (
+				BA7233F41E0CE2F300352499 /* SwiftGen.playground */,
 				BA9FC6481DFF6AA1004316AD /* AmazingProject */,
 				BA29BDD71DF5164C00D325D3 /* AmazingProjectTests */,
 				BAF7107B1DED560C00EAC4AB /* Products */,
