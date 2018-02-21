@@ -1,0 +1,21 @@
+//  *** DO NOT MODIFY THE AUTO-GENERATED FILE i.e UIStoryboard+SwiftGen.swift ***
+
+import UIKit
+
+{% if storyboards %}
+enum Storyboard: String {
+    {% for storyboard in storyboards %}
+    {% set storyboardName %}{{storyboard.name|swiftIdentifier}}{% endset %}
+    case {{storyboardName|lowerFirstWord|escapeReservedKeywords}} = "{{storyboardName}}"
+{% endfor %}
+}
+
+extension UIStoryboard {
+    convenience init(name: Storyboard, bundle: Bundle? = nil) {
+        self.init(name: name.rawValue, bundle: bundle)
+    }
+}
+{% else %}
+// No storyboards found
+{% endif %}
+

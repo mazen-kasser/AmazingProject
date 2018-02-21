@@ -8,18 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		848CC2D41F24A7B600B0EF78 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848CC2D31F24A7B600B0EF78 /* Identifiable.swift */; };
-		BA0891081E0C90C100A1F16A /* UIStoryboards+Extensions.stencil in Resources */ = {isa = PBXBuildFile; fileRef = BA0891071E0C90C100A1F16A /* UIStoryboards+Extensions.stencil */; };
+		849B598C203D123600F0A136 /* UIColor+SwiftGen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B598B203D123600F0A136 /* UIColor+SwiftGen.swift */; };
+		84CCB502203D26C400FCFE89 /* Default.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CCB501203D26C400FCFE89 /* Default.storyboard */; };
+		84F0173D1F29FADB0041EF33 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F0173C1F29FADB0041EF33 /* UITableView+Extensions.swift */; };
+		BA0891081E0C90C100A1F16A /* UIStoryboards+SwiftGen.stencil in Resources */ = {isa = PBXBuildFile; fileRef = BA0891071E0C90C100A1F16A /* UIStoryboards+SwiftGen.stencil */; };
 		BA29BDD91DF5164C00D325D3 /* AmazingProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA29BDD81DF5164C00D325D3 /* AmazingProjectTests.swift */; };
-		BA9BABF91E0B62CF00B18085 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BABF61E0B62CF00B18085 /* UIView+Extensions.swift */; };
 		BA9BABFA1E0B62CF00B18085 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BABF71E0B62CF00B18085 /* UIViewController+Extensions.swift */; };
-		BA9BAC041E0B8EC000B18085 /* UIStoryboard+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BAC031E0B8EC000B18085 /* UIStoryboard+Extensions.swift */; };
+		BA9BAC041E0B8EC000B18085 /* UIStoryboard+SwiftGen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9BAC031E0B8EC000B18085 /* UIStoryboard+SwiftGen.swift */; };
 		BA9FC6571DFF6AA1004316AD /* AmazingStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9FC6491DFF6AA1004316AD /* AmazingStoryboard.storyboard */; };
-		BA9FC6581DFF6AA1004316AD /* AmazingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9FC64A1DFF6AA1004316AD /* AmazingView.swift */; };
-		BA9FC6591DFF6AA1004316AD /* AmazingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9FC64B1DFF6AA1004316AD /* AmazingView.xib */; };
 		BA9FC65A1DFF6AA1004316AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9FC64C1DFF6AA1004316AD /* AppDelegate.swift */; };
 		BA9FC65B1DFF6AA1004316AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9FC64D1DFF6AA1004316AD /* Assets.xcassets */; };
 		BA9FC65D1DFF6AA1004316AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9FC6501DFF6AA1004316AD /* Main.storyboard */; };
-		BA9FC65E1DFF6AA1004316AD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA9FC6521DFF6AA1004316AD /* Info.plist */; };
 		BA9FC6621DFF6AA1004316AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9FC6561DFF6AA1004316AD /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,17 +34,16 @@
 
 /* Begin PBXFileReference section */
 		848CC2D31F24A7B600B0EF78 /* Identifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identifiable.swift; sourceTree = "<group>"; };
-		BA0891071E0C90C100A1F16A /* UIStoryboards+Extensions.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "UIStoryboards+Extensions.stencil"; sourceTree = "<group>"; };
+		849B598B203D123600F0A136 /* UIColor+SwiftGen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+SwiftGen.swift"; sourceTree = "<group>"; wrapsLines = 0; };
+		84CCB501203D26C400FCFE89 /* Default.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Default.storyboard; sourceTree = "<group>"; };
+		84F0173C1F29FADB0041EF33 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		BA0891071E0C90C100A1F16A /* UIStoryboards+SwiftGen.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "UIStoryboards+SwiftGen.stencil"; sourceTree = "<group>"; };
 		BA29BDD61DF5164C00D325D3 /* AmazingProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmazingProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA29BDD81DF5164C00D325D3 /* AmazingProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazingProjectTests.swift; sourceTree = "<group>"; };
 		BA29BDDA1DF5164C00D325D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA7233F41E0CE2F300352499 /* SwiftGen.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftGen.playground; sourceTree = "<group>"; };
-		BA9BABF61E0B62CF00B18085 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		BA9BABF71E0B62CF00B18085 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
-		BA9BAC031E0B8EC000B18085 /* UIStoryboard+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extensions.swift"; sourceTree = "<group>"; };
+		BA9BAC031E0B8EC000B18085 /* UIStoryboard+SwiftGen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+SwiftGen.swift"; sourceTree = "<group>"; };
 		BA9FC6491DFF6AA1004316AD /* AmazingStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AmazingStoryboard.storyboard; sourceTree = "<group>"; };
-		BA9FC64A1DFF6AA1004316AD /* AmazingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmazingView.swift; sourceTree = "<group>"; };
-		BA9FC64B1DFF6AA1004316AD /* AmazingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmazingView.xib; sourceTree = "<group>"; };
 		BA9FC64C1DFF6AA1004316AD /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA9FC64D1DFF6AA1004316AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA9FC6511DFF6AA1004316AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -72,6 +70,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		849B5989203D02CA00F0A136 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BA9FC6501DFF6AA1004316AD /* Main.storyboard */,
+				BA9FC6491DFF6AA1004316AD /* AmazingStoryboard.storyboard */,
+				84CCB501203D26C400FCFE89 /* Default.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		BA29BDD71DF5164C00D325D3 /* AmazingProjectTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -85,10 +93,9 @@
 		BA9BABF41E0B62CF00B18085 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				BA9BAC021E0B8E8E00B18085 /* SwiftGen */,
-				BA9BABF61E0B62CF00B18085 /* UIView+Extensions.swift */,
 				BA9BABF71E0B62CF00B18085 /* UIViewController+Extensions.swift */,
 				848CC2D31F24A7B600B0EF78 /* Identifiable.swift */,
+				84F0173C1F29FADB0041EF33 /* UITableView+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -96,8 +103,9 @@
 		BA9BAC021E0B8E8E00B18085 /* SwiftGen */ = {
 			isa = PBXGroup;
 			children = (
-				BA0891071E0C90C100A1F16A /* UIStoryboards+Extensions.stencil */,
-				BA9BAC031E0B8EC000B18085 /* UIStoryboard+Extensions.swift */,
+				BA0891071E0C90C100A1F16A /* UIStoryboards+SwiftGen.stencil */,
+				BA9BAC031E0B8EC000B18085 /* UIStoryboard+SwiftGen.swift */,
+				849B598B203D123600F0A136 /* UIColor+SwiftGen.swift */,
 			);
 			path = SwiftGen;
 			sourceTree = "<group>";
@@ -107,10 +115,8 @@
 			children = (
 				BA9FC64C1DFF6AA1004316AD /* AppDelegate.swift */,
 				BA9FC6561DFF6AA1004316AD /* ViewController.swift */,
-				BA9FC6501DFF6AA1004316AD /* Main.storyboard */,
-				BA9FC6491DFF6AA1004316AD /* AmazingStoryboard.storyboard */,
-				BA9FC64A1DFF6AA1004316AD /* AmazingView.swift */,
-				BA9FC64B1DFF6AA1004316AD /* AmazingView.xib */,
+				849B5989203D02CA00F0A136 /* Storyboards */,
+				BA9BAC021E0B8E8E00B18085 /* SwiftGen */,
 				BA9BABF41E0B62CF00B18085 /* Extensions */,
 				BA9FC6641DFF6BB0004316AD /* Resources */,
 			);
@@ -129,7 +135,6 @@
 		BAF710711DED560C00EAC4AB = {
 			isa = PBXGroup;
 			children = (
-				BA7233F41E0CE2F300352499 /* SwiftGen.playground */,
 				BA9FC6481DFF6AA1004316AD /* AmazingProject */,
 				BA29BDD71DF5164C00D325D3 /* AmazingProjectTests */,
 				BAF7107B1DED560C00EAC4AB /* Products */,
@@ -170,7 +175,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAF7108C1DED560C00EAC4AB /* Build configuration list for PBXNativeTarget "AmazingProject" */;
 			buildPhases = (
-				BA9BABF31E0B610900B18085 /* ShellScript */,
+				BA9BABF31E0B610900B18085 /* Run Storyboards - SwiftGen */,
+				849B598A203D10AA00F0A136 /* Run Colors - SwiftGen */,
 				BAF710761DED560C00EAC4AB /* Sources */,
 				BAF710771DED560C00EAC4AB /* Frameworks */,
 				BAF710781DED560C00EAC4AB /* Resources */,
@@ -191,19 +197,20 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Mazen Kasser";
 				TargetAttributes = {
 					BA29BDD51DF5164C00D325D3 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 473EN4MVVH;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 						TestTargetID = BAF710791DED560C00EAC4AB;
 					};
 					BAF710791DED560C00EAC4AB = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 473EN4MVVH;
-						LastSwiftMigration = 0810;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -239,11 +246,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA9FC6591DFF6AA1004316AD /* AmazingView.xib in Resources */,
 				BA9FC65D1DFF6AA1004316AD /* Main.storyboard in Resources */,
-				BA9FC65E1DFF6AA1004316AD /* Info.plist in Resources */,
+				84CCB502203D26C400FCFE89 /* Default.storyboard in Resources */,
 				BA9FC65B1DFF6AA1004316AD /* Assets.xcassets in Resources */,
-				BA0891081E0C90C100A1F16A /* UIStoryboards+Extensions.stencil in Resources */,
+				BA0891081E0C90C100A1F16A /* UIStoryboards+SwiftGen.stencil in Resources */,
 				BA9FC6571DFF6AA1004316AD /* AmazingStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,18 +257,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		BA9BABF31E0B610900B18085 /* ShellScript */ = {
+		849B598A203D10AA00F0A136 /* Run Colors - SwiftGen */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Run Colors - SwiftGen";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftgen >/dev/null; then\nswiftgen storyboards -p \"$PROJECT_DIR/$TARGET_NAME/Extensions/SwiftGen/UIStoryboards+Extensions.stencil\" \"$PROJECT_DIR\" -o \"$PROJECT_DIR/$TARGET_NAME/Extensions/SwiftGen/UIStoryboard+Extensions.swift\"\nelse\necho \"warning: SwiftGen not installed, download it from https://github.com/AliSoftware/SwiftGen\"\nfi";
+			shellScript = "swiftgen colors \"/Users/admin/Library/Colors/MyColors.clr\" --output \"$PROJECT_DIR/$TARGET_NAME/SwiftGen/UIColor+SwiftGen.swift\"";
+		};
+		BA9BABF31E0B610900B18085 /* Run Storyboards - SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Storyboards - SwiftGen";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftgen >/dev/null; then\nswiftgen storyboards -p \"$PROJECT_DIR/$TARGET_NAME/SwiftGen/UIStoryboards+SwiftGen.stencil\" \"$PROJECT_DIR\" -o \"$PROJECT_DIR/$TARGET_NAME/SwiftGen/UIStoryboard+SwiftGen.swift\"\nelse\necho \"warning: SwiftGen not installed, download it from https://github.com/AliSoftware/SwiftGen\"\nfi";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -279,13 +300,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA9BAC041E0B8EC000B18085 /* UIStoryboard+Extensions.swift in Sources */,
+				BA9BAC041E0B8EC000B18085 /* UIStoryboard+SwiftGen.swift in Sources */,
+				849B598C203D123600F0A136 /* UIColor+SwiftGen.swift in Sources */,
 				BA9FC6621DFF6AA1004316AD /* ViewController.swift in Sources */,
 				BA9FC65A1DFF6AA1004316AD /* AppDelegate.swift in Sources */,
-				BA9BABF91E0B62CF00B18085 /* UIView+Extensions.swift in Sources */,
+				84F0173D1F29FADB0041EF33 /* UITableView+Extensions.swift in Sources */,
 				848CC2D41F24A7B600B0EF78 /* Identifiable.swift in Sources */,
 				BA9BABFA1E0B62CF00B18085 /* UIViewController+Extensions.swift in Sources */,
-				BA9FC6581DFF6AA1004316AD /* AmazingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,7 +342,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.mazenkasser.StoryboardTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmazingProject.app/AmazingProject";
 			};
 			name = Debug;
@@ -336,7 +358,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.mazenkasser.StoryboardTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmazingProject.app/AmazingProject";
 			};
 			name = Release;
@@ -350,7 +373,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -358,7 +383,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -399,7 +429,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -407,7 +439,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -443,7 +480,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.mazenkasser.AmazingProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -457,7 +495,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.mazenkasser.AmazingProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

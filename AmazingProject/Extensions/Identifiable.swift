@@ -18,4 +18,3 @@ extension Identifiable where Self: NSObject {
 
 // Global Conformance
 extension UIViewController: Identifiable { }
-extension UIView: Identifiable { }

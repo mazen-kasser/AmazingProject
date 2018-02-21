@@ -9,8 +9,9 @@ import UIKit
 
 extension UIViewController {
 
-    /// instantiates a view controller from within a storyboard where the nib name is the same as the custom view controller class name
-    /// returns a strongly typed object of the correct type
+    /// Instantiates a view controller from within a storyboard where the nib name is the same as the custom view controller class name.
+    ///
+    /// Returns a strongly typed object of the correct type.
     class func instantiate(from storyboard: UIStoryboard) -> Self {
         return instantiateFromStoryboard(from: storyboard)
     }

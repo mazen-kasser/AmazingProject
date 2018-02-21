@@ -5,36 +5,23 @@
 import Foundation
 import UIKit
 
-class ViewController: UIViewController, AmazingViewDelegate {
+class ViewController: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
 
     @IBAction func pushToStoryboardView(_ sender: Any) {
 
         let sb = UIStoryboard(name: "AmazingStoryboard", bundle: nil)
         let _ = sb.instantiateViewController(withIdentifier: "AmazingViewController") as? AmazingViewController
 
-        let _ = UIStoryboard(name: .amazingStoryboard)
-        let storyboard = Storyboard.amazingStoryboard.instance
-
+        let storyboard = UIStoryboard(name: .amazingStoryboard)
 
         let viewController = AmazingViewController.instantiate(from: storyboard)
 
         navigationController?.pushViewController(viewController, animated: true)
-    }
-
-    @IBAction func addAmazingView(_ sender: Any) {
-
-        // Stringly typed
-        let _ = Bundle.main.loadNibNamed("AmazingView", owner: nil, options: nil)!.first as! AmazingView
-
-        // Stronlgy typed
-        let amazingView = AmazingView.instantiateFromNib()
-        amazingView.delegate = self
-
-        view.addSubview(amazingView)
-    }
-
-    internal func didTapCloseButton() {
-
     }
 }
 
